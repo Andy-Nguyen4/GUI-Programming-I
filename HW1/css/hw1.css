@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 html {
     background-color: beige; /* Sets the background color to beige */
 }
@@ -11,10 +15,36 @@ h1, h2, h3 {
 
 table, th, td {
     border: 1px solid black;  /* sets border size to 1 pixel and gives it a solid black color */
-    padding: 10px;  /* sets the space around each element's content to 20 pixels */
-    background-color: white;
+    background-color: beige;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: auto;
+}
+
+th, td {
+    padding: 15px;
 }
 
 p {
     font-size: 20px; /* sets the font size to 20 pixels */
+}
+
+img {
+    border: 2px solid black;
+}
+
+.venn-diagram {
+    text-align: center;
+}
+
+.table-container {
+    text-align: center;
+}
+
+.a-solution, .b-formula, .b-solution, .c-solution {
+    text-align: center;
 }
