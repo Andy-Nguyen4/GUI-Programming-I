@@ -5,12 +5,20 @@ Description: Styling index.html using external CSS. Only pacific.css should be e
 similar to the one shown in the images "capture 1-5."
 */
 
+#wrapper {
+    min-width: 600px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* Establishes the display, min and max width for the area */
-header, hgroup, nav, #content, footer, figure, figcaption, aside, section, article {
+/*header, hgroup, nav, #content, footer, figure, figcaption, aside, section, article {
 	display: block;
     min-width: 600px;
     max-width: 80%;
-}
+    margin: auto;
+}*/
 
 /* Adds in a background gradient image over the original */
 body {
@@ -19,11 +27,12 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
     background-image: url(ptrbackground.jpg);
     background-repeat: repeat-x;
+    /*padding-bottom: 15px;*/
 }
 
 /* Establishes margins + colors and adds in a background image position to the right with no repeat */
 header {
-    margin: auto 600px auto 100px;
+    /*margin: auto 600px auto 100px;*/
     background-color: #0e0d34;
     color: white;
     background-image: url(sunset.jpg);
@@ -34,9 +43,12 @@ header {
 /* Gives navigation bar margins, background color, and some padding. Got it alongside the left side of the main
     page but could not get to go all the way down like a vertical block(according to capture images). */
 nav {
-    margin: auto 600px auto 100px;
+    /*margin: auto 600px auto 100px;*/
     background-color: #90c7e3;
-    padding-top: 5px;
+    /*padding-top: 5px;*/
+    float: left;
+    padding-right: 30px;
+    height: 325px;
 }
 
 /* list-style-type removes bullet points */
@@ -64,14 +76,17 @@ nav a:hover {
 /* Gives margins and padding to the main page */
 #content {
     background-color: white;
-    margin: -131px 600px 0px 300px;
-    padding: 3px 30px 30px 30px;
+    padding-top: 10px;
+    /*margin: -131px 600px 0px 300px;*/
+    /*padding: 3px 30px 30px 30px;*/
+    /*float: right;*/
 }
 
 /* Made the image float to the left. All text will go to the right or below it */
 img {
     float: left;
     padding-right: 30px;
+    padding-left: 30px;
 }
 
 /* Gives special coloring and bold font to the resort name */
@@ -110,7 +125,7 @@ dt {
 footer {
 	font-family: Georgia, "Times New Roman", serif;
     background-color: white;
-    margin: 0px 600px 0px 300px;
-    padding: 10px 30px 30px 30px;
+    /*margin: 0px 600px 0px 300px;*/
+    /*padding: 10px 300px 20px 20px;*/
 }
 
