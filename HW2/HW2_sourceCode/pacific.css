@@ -12,14 +12,6 @@ similar to the one shown in the images "capture 1-5."
     margin-right: auto;
 }
 
-/* Establishes the display, min and max width for the area */
-/*header, hgroup, nav, #content, footer, figure, figcaption, aside, section, article {
-	display: block;
-    min-width: 600px;
-    max-width: 80%;
-    margin: auto;
-}*/
-
 /* Adds in a background gradient image over the original */
 body {
 	background-color: #00569f;
@@ -32,7 +24,6 @@ body {
 
 /* Establishes margins + colors and adds in a background image position to the right with no repeat */
 header {
-    /*margin: auto 600px auto 100px;*/
     background-color: #0e0d34;
     color: white;
     background-image: url(sunset.jpg);
@@ -43,9 +34,7 @@ header {
 /* Gives navigation bar margins, background color, and some padding. Got it alongside the left side of the main
     page but could not get to go all the way down like a vertical block(according to capture images). */
 nav {
-    /*margin: auto 600px auto 100px;*/
     background-color: #90c7e3;
-    /*padding-top: 5px;*/
     float: left;
     padding-right: 30px;
     height: 325px;
@@ -77,9 +66,6 @@ nav a:hover {
 #content {
     background-color: white;
     padding-top: 10px;
-    /*margin: -131px 600px 0px 300px;*/
-    /*padding: 3px 30px 30px 30px;*/
-    /*float: right;*/
 }
 
 /* Made the image float to the left. All text will go to the right or below it */
@@ -125,7 +111,6 @@ dt {
 footer {
 	font-family: Georgia, "Times New Roman", serif;
     background-color: white;
-    /*margin: 0px 600px 0px 300px;*/
     /*padding: 10px 300px 20px 20px;*/
 }
 
