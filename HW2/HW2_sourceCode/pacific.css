@@ -5,24 +5,24 @@ Description: Styling index.html using external CSS. Only pacific.css should be e
 similar to the one shown in the images "capture 1-5."
 */
 
+* {
+    box-sizing: border-box;
+}
+
 #wrapper {
     min-width: 600px;
     max-width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 
-/* Adds in a background gradient image over the original */
 body {
 	background-color: #00569f;
 	color: #666666;
 	font-family: Arial, Helvetica, sans-serif;
     background-image: url(ptrbackground.jpg);
     background-repeat: repeat-x;
-    /*padding-bottom: 15px;*/
 }
 
-/* Establishes margins + colors and adds in a background image position to the right with no repeat */
 header {
     background-color: #0e0d34;
     color: white;
@@ -31,13 +31,13 @@ header {
     background-position: right;
 }
 
-/* Gives navigation bar margins, background color, and some padding. Got it alongside the left side of the main
-    page but could not get to go all the way down like a vertical block(according to capture images). */
 nav {
     background-color: #90c7e3;
     float: left;
     padding-right: 30px;
-    height: 325px;
+    background-image: linear-gradient(90deg, #90c7e3 100%, white 100%);
+    padding-bottom: 328px;
+    /*height: 455px;*/
 }
 
 /* list-style-type removes bullet points */
@@ -62,7 +62,7 @@ nav a:hover {
 	color: #FFFFFF;
 }
 
-/* Gives margins and padding to the main page */
+/* Gives color and padding to the content */
 #content {
     background-color: white;
     padding-top: 10px;
@@ -93,6 +93,7 @@ h1 {
 
 h2 {
 	color: #3399CC;
+    padding-left: 220px;
 }
 
 h1, h2 {
@@ -107,10 +108,10 @@ dt {
 	color: #000033;
 }
 
-/* Establishes margins and padding for the footer */
 footer {
 	font-family: Georgia, "Times New Roman", serif;
     background-color: white;
-    /*padding: 10px 300px 20px 20px;*/
+    padding: 50px 0px 30px 220px;
 }
+
 
