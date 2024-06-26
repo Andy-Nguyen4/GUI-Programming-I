@@ -61,7 +61,8 @@ th:first-child {
 }
 
 tr:first-child th:first-child {
-    background-color: white;       /* set background color for the first header cell in the first row */
+    background-color: beige;      /* set background color for the first header cell in the first row */
+    border: none;
 }
 
 th:not(:first-child) {
@@ -73,6 +74,11 @@ th:not(:first-child) {
 
 tr:nth-child(odd):not(:first-child) {
     background-color: red;              /* alternate color for odd rows */
+    color: white;
+}
+
+th:nth-child(odd):first-child {
+    color: black;
 }
 
 tr:nth-child(even):not(:first-child) {
