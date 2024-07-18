@@ -3,12 +3,13 @@
 }
 
 html {
-    background-color: beige; /* Sets the background color to beige */
+    background-color: peachpuff; /* Sets the background color to beige */
+    font-family: Georgia;
 }
 
 /* sets font type to monospace, font size to 20 pixels, and color to crimson */
 h1, h2, h3 {
-    font-family: monospace;
+    font-family: "Audiowide", Georgia;
     font-size: 20px;
     color: crimson;
 }
@@ -43,6 +44,7 @@ img {
 
 .table-container {
     text-align: center;
+    padding-bottom: 10px;
 }
 
 .a-solution, .b-formula, .b-solution, .c-solution {
