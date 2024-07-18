@@ -7,33 +7,61 @@ inputs by using JavaScript. JavaScript is also used to make the table. The forma
 jQuery, and jQuery Validation plugin on the hw4.html file. This is homework 4 part 1.
 */
 
+* {
+    box-sizing: border-box;
+}
+
+/*#title {
+    background-color: #1abc9c;
+    color: white
+}*/
+
 #title h1 {
     text-align: center;
+    color: white;
 }
 
 #title hr {
-    border: 5px solid;
+    border: 4px solid black;
 }
 
 body {
-    background-color: beige;
+    background-color: #1abc9c;
 }
 
 form {
     float: left;    /* this will put the input form on the left side of the page*/
     width: 30%;
+    padding: 10px;
+    background-color: wheat;
+    border: 2px solid black;
+    margin-top: 10px;
 }
 
 input[type=text] {
     width: 100%;
     padding: 12px 20px;
     margin: 10px 0px;
-    box-sizing: border-box;
 }
 
 .errorMessage {
     color: crimson;
     font-size: 15px;
+}
+
+.submit {
+    background-color: green;
+    color: white;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px;
+    margin: 4px 2px;
+    border-radius: 12px;
+}
+
+.submit:hover {
+    background-color: blue;
 }
 
 #tableContainer {
@@ -63,7 +91,7 @@ th:first-child {
 }
 
 tr:first-child th:first-child {
-    background-color: beige;
+    background-color: #1abc9c;
     border: none;       
 }
 
